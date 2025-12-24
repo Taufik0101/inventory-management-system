@@ -11,5 +11,5 @@ type ActivityLog struct {
 	Message   string    `json:"message"`
 }
 
-var Logs = []ActivityLog{}
+var Logs []ActivityLog
 var NextLogID = 1

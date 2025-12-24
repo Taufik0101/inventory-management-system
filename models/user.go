@@ -6,5 +6,5 @@ type User struct {
 	Password string `json:"-"`
 }
 
-var Users = []User{}
+var Users []User
 var NextUserID = 1

@@ -11,5 +11,5 @@ type Item struct {
 	UpdatedAt   time.Time `json:"updated_at"`
 }
 
-var Inventory = []Item{}
+var Inventory []Item
 var NextItemID = 1
