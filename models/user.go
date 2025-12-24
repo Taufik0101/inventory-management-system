@@ -1,0 +1,10 @@
+package models
+
+type User struct {
+	ID       int    `json:"id"`
+	Username string `json:"username"`
+	Password string `json:"-"`
+}
+
+var Users = []User{}
+var NextUserID = 1
